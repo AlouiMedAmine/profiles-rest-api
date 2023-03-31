@@ -94,6 +94,8 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
+.my-project-env
+my-project-env/
 .env
 .venv
 env/
@@ -122,7 +124,7 @@ dmypy.json
 
 ### Python Patch ###
 .venv/
-
+.my-project-env/
 ### Vagrant ###
 # General
 .vagrant/
